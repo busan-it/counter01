@@ -1,0 +1,27 @@
+body{font-family: "Inter", sans-serif; font-size: 1.6rem; line-height: 1.5; color: #000;}
+
+#wrap{background-color: #e2f0dd; height: 100vh; display: flex; justify-content: center; align-items: center;}
+.inner{background-color: #fff; padding: 50px; border-radius: 30px; box-shadow: 1px 1px 10px rgba(0,0,0,0.1); text-align: center;}
+
+h1{font-size: 3.5rem;}
+.number{font-size: 10rem; font-weight: 700; background: linear-gradient(#5dae00, #b4e400); color: transparent; background-clip: text;}
+/*글자에다 그라디언트 넣는 방법
+먼저 배경색으로 그라이언트를 넣고
+color: transparent; 글자색을 투명으로 만들고
+-webkit-background-clip: text; 배경을 글자에만 적용시키는 속성
+
+안되면 웹킷 붙이기
+-webkit-
+CSS 접두사 벤터프리픽스
+웹킷 기반의 브라우저(사파리,크롬) 에서만 동작하는 속성에 붙이는 거
+
+크롬, 사파리 -webkit-
+오페라 -o-
+엣지 -ms-
+파이어폭스 -moz-
+
+*/
+
+.btn {display: flex; gap: 5px; align-items: center;}
+.btn button{background-color: #000; color: #fff; width: 50px; height: 50px; border-radius: 50%;}
+.btn button.reset{width: 70px; height: 70px; background-color: #5dae00;}
